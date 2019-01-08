@@ -21,6 +21,6 @@ ${process.env.npm_package_config_github}
 ${process.env.npm_package_config_twitter}
 ${process.env.npm_package_config_linkedIn}
 
-Email me at ${chalk.white.bold(email)}`
+Email me at ${chalk.white.bold(process.env.npm_package_config_email)}`
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))

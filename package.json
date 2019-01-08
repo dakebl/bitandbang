@@ -5,6 +5,7 @@
   "main": "/bin/card.js",
   "config": {
     "name": "Dale Blackburn",
+    "email": "dale@dakebl.co.uk",
     "location": "Brighton, UK",
     "username": "dakebl",
     "job-title": "Full Stack Developer",
