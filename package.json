@@ -1,14 +1,25 @@
 {
-  "name": "bitandbang",
+  "name": "dakebl",
   "version": "1.3.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Dale Blackburn (@dakebl)",
   "main": "/bin/card.js",
+  "config": {
+    "name": "Dale Blackburn",
+    "location": "Brighton, UK",
+    "username": "dakebl",
+    "job-title": "Full Stack Developer",
+    "description": "Node, React, Vue, Gatsby, GraphQL, Prisma, Docker, AWS",
+    "website": "https://dakebl.co.uk",
+    "github": "https://github.com/dakebl",
+    "twitter": "https://twitter.com/dakebl",
+    "linkedIn": "https://linkedin.com/in/dakebl"
+  },
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "dakebl": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/dakebl/dakebl.git"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -25,7 +36,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Dale Blackburn <dale@dakebl.co.uk> (dale@dakebl.co.uk)",
   "license": "MIT",
   "files": [
     "bin/card.js",
