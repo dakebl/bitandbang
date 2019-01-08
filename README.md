@@ -1,8 +1,6 @@
-It's me, Dale!
+my `npx` business card, based on the great idea by [bitandbang](https://github.com/bnb/bitandbang)
 
-my `npx` business card, based on the great idea by [bitandbang]()
-
-# Usage
+## Usage
 ```
 npx dakebl
 ```
